@@ -1,0 +1,148 @@
+
+/*{
+color:blue;
+}
+p{
+color: red;
+}
+.clase {
+    background-color: lightblue;
+}
+ul {
+list-style-type: none;
+}
+ article ul {
+   list-style-type: square;
+ }
+ #profile.pic img{
+     border-radius: 40%;
+ }*/
+/* ----- LAYOUT ------*/
+.main-container {
+    display: flex;
+    width: 1270px;
+    justify-content: center;  
+}
+/* ----- GENERAL ------*/
+ul {
+    list-style-type: none;
+    }
+.clear {
+    clear: both;
+}    
+h1,
+h2 {
+    text-transform: uppercase;
+}
+/*ASIDE*/
+aside {
+    background-color: #334854;
+    width: 23%;
+    margin-right: 3.5%;
+
+}
+aside * {
+    color: white;
+}
+aside h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+aside section h1:first-child{
+border-bottom: 2px solid white;
+}
+#profile-pic img{
+    border-radius: 30%;
+    width: 210px;
+}
+/*------- MAIN ------*/
+main {
+    flex-basis: 62%;
+}
+main section > h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.hero {
+    background-color: red;
+}
+.hero h2 {
+    color: white;
+    border-top: 2px solid white;
+    text-transform: uppercase;
+    letter-spacing: 12px;    
+}
+.hero h1{
+    letter-spacing: 8px;
+}
+.hero {
+    box-shadow: 2px 2px 10px 1px #334854 inset;
+    padding: 15% 0;
+    text-align: center;
+}
+/*------- ABOUT ME ---*/
+
+.acerca-de-mi p {
+    line-height: 2em;
+    background-color: #1CC7B7;
+    padding: 5px;
+}
+article h3 {
+    font-weight: bold;
+}
+article h4 {
+    font-weight: bold;
+}
+article ul {
+    list-style-type: square;
+}
+/*------ REFERENCES----- */
+.referencias {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1CC7B7;
+}
+.referencias article {
+  width: 50%;  
+}
+/*----- DL -----*/
+dt,
+dd {
+    line-height: 1.5em;
+    border-top: 1px solid white;
+}
+dt{
+    clear: bolder;
+    width: 30%;
+    float: left;
+    border-top: 1px solid white;
+}
+dd {
+    clear: right;
+    width: 50%;
+    float: left;
+    margin: 0;
+    border-top: 1px solid white;
+}
+dt :last-of-type
+dd :last-of-type {
+    border-bottom: 1px solid white;
+}
+/* ------- ICONS ------- */
+.fb :before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 900 
+    content "\f007";
+    content: "\f082";
+}
+/* ------- METER ------- */
+meter {
+    display: block;
+    width: 82%;
+    }
+meter::-webkit-meter-optimum-value {
+background: none;
+background-color:#1CC7B7;
+    }
+       
